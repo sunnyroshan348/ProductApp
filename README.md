@@ -2,6 +2,15 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
 
+# Installing node modules & bootstrap
+
+In command prompt enter the project folder 
+
+cd ProductApp
+
+npm install     --for node modules
+npm install bootstrap  -- for bootstrap files
+
 ## Development server
 
 To start a local development server, run:
