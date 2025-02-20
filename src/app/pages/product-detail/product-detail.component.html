@@ -1,0 +1,12 @@
+<div class="container mt-5">
+    <h2 class="text-center">Product Details</h2>
+    <div *ngIf="product" class="card shadow-lg">
+      <div class="card-body">
+        <h2 class="card-title text-primary">{{ product.name }}</h2>
+        <p class="card-text">{{ product.description }}</p>
+        <p class="fw-bold text-success">Price: ${{ product.price }}</p>
+        <button (click)="backtoproducts()" class="btn btn-outline-secondary">Back to Products</button>
+      </div>
+    </div>
+  </div>
+  

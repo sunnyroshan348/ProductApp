@@ -1,0 +1,11 @@
+<div class="container mt-4">
+    <h2 class="text-center">Product List</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let product of products">
+        <br/>
+        <app-product-card [product]="product" (addToCart)="navigatetoproduct(product.id)" ></app-product-card>
+
+      </div>
+    </div>
+  </div>
+  
